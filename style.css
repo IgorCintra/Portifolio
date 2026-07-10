@@ -166,9 +166,11 @@ main .sobre {
 
 .sobre img {
     animation: ladoSecao .5s ease-in-out forwards;
-    border-radius: 100%;
+    border-radius: 5px;
     cursor: pointer;
     grid-row: 2;
+    grid-column: 1;
+    height: 600px;
     max-width: 100%;
     filter:blur(0);
 }
